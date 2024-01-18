@@ -1,0 +1,19 @@
+How to create a VENV in python 
+
+python -m venv myEnv
+
+myenv\Scripts\activate
+
+
+You can explicitly specify your path too. Similarly like Linux you can deactivate it like
+
+$ deactivate
+
+
+If we want to check which which packages we have installed in our environment
+
+Command is pip freeze
+
+if we want to save this them then run
+
+pip freeze > requirements.txt
